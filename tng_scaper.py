@@ -1,5 +1,6 @@
 # web scraper to grab the names of the episodes of each season on TNG
 # and saves all the titles to an XML file
+# a good free XML formatter online is here: https://www.freeformatter.com/xml-formatter.html
 
 import requests
 from bs4 import BeautifulSoup
@@ -107,6 +108,6 @@ for i in range(0, NUM_SEASONS):
 
 	# write the season to the XML file
 	writeSeasonXML(i+1, current_titles)
-	
+
 
 
