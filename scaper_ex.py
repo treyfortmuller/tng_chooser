@@ -1,3 +1,5 @@
+# from https://medium.com/analytics-vidhya/web-scraping-wiki-tables-using-beautifulsoup-and-python-6b9ea26d8722
+
 import requests
 from bs4 import BeautifulSoup
 
